@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #99cccc;
+    --branco: #FFFFFF;
+    --vermelho: #b7023f;
+    --roxo-degrade: linear-gradient(97.54deg, #583b7e.49%, #81749c 165.37%);
+    --fonte-principal: "Montserrat";
+    --azul: #453c5c;
+    --fonte-secundario: "Inter";
+    --preto: #000000;
+    --cinza: #474646;
+    --marrom-claro: #e0c4ae;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
